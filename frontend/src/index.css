@@ -1,0 +1,17 @@
+:root {
+    --main-color: #fff;
+    --gray-color: #d9d9d9;
+    --green-color: #3c6e71;
+    --blue-color: #284b63;
+    --dark-color: #353535;
+    --purple-color: #7C3AED;
+    --fuksia-color: #D946EF;
+    --orange-color: #FF8E00;
+    --red-color: #FF8E00;
+    --act-fs: "Momo Trust Display", sans-serif;
+    --king-fs: "Kings", cursive;
+
+
+    --radius: 22px;
+    --shadow: 0 24px 70px rgba(0, 0, 0, .16);
+}

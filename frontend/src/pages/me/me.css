@@ -1,0 +1,85 @@
+#root {
+    background-color: white !important;
+}
+
+.profile__header {
+    border: 2px solid black !important;
+    border-radius: 36px !important;
+    padding: 10px 20px !important;
+    gap: 20px !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile__name {
+    font-size: 40px !important;
+}
+
+.profile__role,
+.profile__container {
+    width: 70%;
+    padding: 10px !important;
+    border-right: none !important;
+    gap: 10px !important;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile__role {
+    width: 30%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    border: none !important;
+}
+
+.profile__who {
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.profile__wallet {
+    border: 2px solid black !important;
+    border-radius: 36px !important;
+    padding: 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__accounts {
+    width: 100% !important;
+    border: 2px solid black !important;
+    border-radius: 36px !important;
+    padding: 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__line {
+    display: flex;
+    align-items: start;
+    gap: 10px
+}
+
+.profile__title-acc {
+    font-size: 25px !important;
+    font-weight: 800;
+    margin-bottom: 20px !important;
+}
+
+.profile__social {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.profile__achivement {
+    border: 2px solid black !important;
+    border-radius: 36px !important;
+    padding: 20px 30px !important;
+}

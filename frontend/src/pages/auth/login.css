@@ -1,0 +1,49 @@
+*{
+    font-family: var(--mont-fs);
+}
+
+body{
+    background-color: var(--green-color) !important;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__title{
+    font-size: 62px;
+    color: var(--main-color);
+    margin-bottom: 24px;
+    font-family: var(--mont-fs);
+}
+
+.login__form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: var(--main-color);
+    padding: 64px 32px;
+    border-radius: 16px;
+}
+
+.login__remember{
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: start;
+}
+
+.login__error{
+    font-size: 14px;
+    color: red;
+    transform: translateY(-14px);
+}
